@@ -1,0 +1,60 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+nav{
+    border: 2px solid black;
+    border-radius: 2rem;
+    margin: 0 auto 1rem;
+    max-width: 600px;
+    font-size: 3rem;
+    line-height: 7rem;
+
+}
+h2{
+    padding: 1rem;
+    background-color: gold;
+    border-radius: 2rem 2rem 0rem 0rem;
+    
+}
+ul{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+li{
+border-top: 1px dashed green;
+}
+li a{
+    display: block;
+   
+}
+
+li a, li a:visited{
+text-decoration: none;
+color: black;
+}
+form, li a:hover, li a:focus{
+    background: blue;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}
+li:last-child{
+    background-color: blueviolet;
+    border-radius: 0 0 2rem 2rem;
+}
