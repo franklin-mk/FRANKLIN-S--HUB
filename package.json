@@ -5,7 +5,7 @@
     "prettier-plugin-tailwindcss": "^0.5.14",
     "tailwindcss": "^3.4.3"
   },
-  "name": "franklin's-hub",
+  "name": "mfranklink",
   "version": "1.0.0",
   "main": "tailwind.config.js",
   "dependencies": {
